@@ -1,0 +1,82 @@
+/*General*/
+* {
+    margin: 0px;
+}
+
+/*Sheader*/
+/*Snav1*/
+
+.nav1{
+    background-color: #fff;
+    flex-grow:1;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding: 1% 0;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    height: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+}
+
+.nav1 nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav1 nav li {
+    margin-right: 20px;
+}
+
+.nav1 nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sansita:wght@400;700&display=swap');
+.company-name h1{
+    color:whitesmoke;
+    font-family: 'Sansita', sans-serif;
+}
+.company-name h2 {
+    font-size: 18px;
+    color:whitesmoke;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.nav2 {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.nav2 nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav2 nav li {
+    margin-right: 20px;
+}
+
+.nav2 nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
